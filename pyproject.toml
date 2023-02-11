@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gravity-sims"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin van de Vorstenbosch <bencvdv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gravity_sims"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
